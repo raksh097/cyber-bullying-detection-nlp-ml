@@ -4,7 +4,7 @@ Cyber bullying detection and mitigation system using NLP and machine learning fo
 
 ## Overview
 
-This project focuses on detecting harmful or bullying content in social media text using Natural Language Processing and Machine Learning. The project also considers mitigation steps for flagged content to support safer online communication.
+This 3rd year project focuses on detecting harmful or bullying content in social media text using Natural Language Processing and Machine Learning. The project also considers mitigation steps for flagged content to support safer online communication.
 
 ## Objectives
 
