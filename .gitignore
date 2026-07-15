@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+models/
+*.joblib
+*.pkl
+*.log
+.env
+.DS_Store

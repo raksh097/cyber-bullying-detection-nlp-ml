@@ -6,6 +6,8 @@ Cyber bullying detection and mitigation system using NLP and machine learning fo
 
 This 3rd year mini project was completed with my project partner. It focuses on detecting harmful or bullying content in social media text using Natural Language Processing and Machine Learning. The project also considers mitigation steps for flagged content to support safer online communication.
 
+This repository now includes a small rebuilt sample implementation based on the original project concept. The sample uses safe demo comments and is meant to show the project workflow without exposing private datasets or personal social media content.
+
 ## Objectives
 
 - Detect cyber bullying or harmful text from social media content
@@ -57,6 +59,36 @@ This 3rd year mini project was completed with my project partner. It focuses on 
 - Text preprocessing
 - Classification models
 - Cyber safety awareness
+
+## Sample Implementation
+
+Included files:
+
+- `data/sample_comments.csv` - small safe demo dataset
+- `src/preprocess.py` - text cleaning helper
+- `src/train_model.py` - TF-IDF and Logistic Regression training demo
+- `src/predict.py` - quick prediction demo for one comment
+- `requirements.txt` - Python dependency list
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Train and evaluate the sample model:
+
+```bash
+python src/train_model.py
+```
+
+Predict one comment:
+
+```bash
+python src/predict.py "you are doing great"
+```
+
+Private datasets, model files, virtual environments, and generated outputs are intentionally excluded from GitHub.
 
 ## Learning Outcome
 
