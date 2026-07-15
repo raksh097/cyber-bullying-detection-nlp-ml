@@ -68,6 +68,7 @@ Included files:
 - `src/preprocess.py` - text cleaning helper
 - `src/train_model.py` - TF-IDF and Logistic Regression training demo
 - `src/predict.py` - quick prediction demo for one comment
+- `docs/demo-output.md` - example predictions and mitigation output
 - `requirements.txt` - Python dependency list
 
 Install dependencies:
@@ -89,6 +90,8 @@ python src/predict.py "you are doing great"
 ```
 
 Private datasets, model files, virtual environments, and generated outputs are intentionally excluded from GitHub.
+
+See [docs/demo-output.md](docs/demo-output.md) for example predictions and mitigation messages.
 
 ## Learning Outcome
 
